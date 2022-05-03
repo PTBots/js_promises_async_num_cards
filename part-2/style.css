@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background: url('http://res.freestockphotos.biz/pictures/8/8219-playing-cards-fanned-out-on-a-white-background-pv.jpg') no-repeat center center fixed;
+  }
+  
+  button {
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    display: none;
+    margin: 0 auto;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #444;
+  }
+  
+  button:active,
+  button:focus {
+    outline: none;
+  }
+  
+  #card-area {
+    margin-top: 80px;
+  }
+  
+  #card-area > img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  
